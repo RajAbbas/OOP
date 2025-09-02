@@ -1,0 +1,22 @@
+from RationalNumber import Rational
+a = Rational(2,4)
+b = Rational(3,2)
+
+a = Rational(1, 2)
+b = Rational(3, 4)
+
+print(a + b)
+print(a + 2)
+print(a - b)
+print(a - 1)
+print(a * b)
+print(a * 3)
+print(a / b)
+print(b / 2)
+print(a == Rational(2, 4))
+print(a != b)
+print(a < b)
+print(b > a)
+print(a <= b)
+print(b >= a)
+print(str(a))
